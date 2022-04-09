@@ -1,0 +1,3 @@
+noWords: 10
+noSpaces: 7
+noCharacters: 34
