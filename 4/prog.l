@@ -4,16 +4,25 @@
     #include <stdlib.h>
 %}
 
-KEYWORD int|float|if|else|while|main|return
-SEPARATOR [,;(){}]
-OPERATOR ==|<=|>=|--|"++"|[*+-/%=<>!~]
-ID [a-zA-Z_][a-zA-Z0-9_]*
-
 %%
-{KEYWORD} { printf("Keyword: %s\n", yytext); }
-{OPERATOR} { printf("Operator: %s\n", yytext); }
-{SEPARATOR} { printf("Seperator: %s\n", yytext); }
-{ID} { printf("Identifier: %s\n", yytext); }
+int|float|if|else|while|main|return { printf("Keyword: %s\n", yytext); }
+== |
+\<= |
+\>= |
+-- |
+\+\+ |
+= |
+\/ |
+\* |
+\+ |
+- |
+% |
+\< |
+\> |
+! |
+~ { printf("Operator: %s\n", yytext); }
+[,;(){}] { printf("Separator: %s\n", yytext); }
+[a-zA-Z_][a-zA-Z0-9_]* { printf("Identifier: %s\n", yytext); }
 .|\n {/* Ignore all other characters. */}
 %%
 
