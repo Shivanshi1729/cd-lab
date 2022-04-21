@@ -362,7 +362,7 @@ struct yy_trans_info
 	};
 static const flex_int16_t yy_accept[11] =
     {   0,
-        0,    0,    5,    3,    2,    1,    2,    2,    1,    0
+        0,    0,    5,    3,    1,    2,    1,    1,    2,    0
     } ;
 
 static const YY_CHAR yy_ec[256] =
@@ -440,8 +440,8 @@ int yy_flex_debug = 0;
 #define YY_MORE_ADJ 0
 #define YY_RESTORE_YY_MORE_OFFSET
 char *yytext;
-#line 1 "3.l"
-#line 2 "3.l"
+#line 1 "prog.l"
+#line 2 "prog.l"
     // c code
     #include <stdio.h>
     #include <stdlib.h>
@@ -663,7 +663,7 @@ YY_DECL
 		}
 
 	{
-#line 7 "3.l"
+#line 7 "prog.l"
 
 #line 669 "lex.yy.c"
 
@@ -724,23 +724,23 @@ do_action:	/* This label is used only to access EOF actions. */
 
 case 1:
 YY_RULE_SETUP
-#line 8 "3.l"
-printf("Integer Value\n");
+#line 8 "prog.l"
+printf("Float value: %s\n", yytext);
 	YY_BREAK
 case 2:
 YY_RULE_SETUP
-#line 9 "3.l"
-printf("Float value\n");
+#line 9 "prog.l"
+printf("Integer Value: %s\n", yytext);
 	YY_BREAK
 case 3:
 /* rule 3 can match eol */
 YY_RULE_SETUP
-#line 10 "3.l"
+#line 10 "prog.l"
 {/* Ignore all other characters. */}
 	YY_BREAK
 case 4:
 YY_RULE_SETUP
-#line 11 "3.l"
+#line 11 "prog.l"
 ECHO;
 	YY_BREAK
 #line 747 "lex.yy.c"
@@ -1748,7 +1748,7 @@ void yyfree (void * ptr )
 
 #define YYTABLES_NAME "yytables"
 
-#line 11 "3.l"
+#line 11 "prog.l"
 
 
 int main(){

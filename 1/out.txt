@@ -1,6 +1,6 @@
-hi i am ravi and        i live
-here
+hi this is _    my place
+i live here *
 noLines: 2
 noTabs: 1
-noSpaces: 5
-noWords: 21
+noSpaces: 7
+noWords: 26

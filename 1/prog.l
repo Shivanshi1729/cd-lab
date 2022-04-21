@@ -12,8 +12,8 @@
 %%
 \n noLines++;
 \t noTabs++;
-([ ])+ noSpace++;
-[a-zA-Z0-9] noCharacter++;
+[ ] noSpace++;
+. noCharacter++;
 %%
 
 int main(){

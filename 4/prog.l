@@ -2,16 +2,11 @@
     // c code
     #include <stdio.h>
     #include <stdlib.h>
-
-    /*
-    ^{KEYWORD}[\ \n] { printf("Keyword: %s\n", yytext); }
-     {KEYWORD}[ \n] { printf("Keyword: %s\n", yytext); }
-    */
 %}
 
-KEYWORD int|float|if|else|while|main
+KEYWORD int|float|if|else|while|main|return
 SEPARATOR [,;(){}]
-OPERATOR  [*+-/%=<>!~]
+OPERATOR ==|<=|>=|--|"++"|[*+-/%=<>!~]
 ID [a-zA-Z_][a-zA-Z0-9_]*
 
 %%
