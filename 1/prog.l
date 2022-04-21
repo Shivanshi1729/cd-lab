@@ -1,7 +1,6 @@
 %{
     // c code
     #include <stdio.h>
-    #include <stdlib.h>
 
     int noLines = 0;
     int noSpace = 0;
