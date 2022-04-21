@@ -1,0 +1,8 @@
+2hi
+Invalid Identifier
+shi
+Valid Identifier
+_shi
+Valid Identifier
+_23sdh
+Valid Identifier

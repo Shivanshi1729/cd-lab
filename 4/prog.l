@@ -23,6 +23,8 @@ ID [a-zA-Z_][a-zA-Z0-9_]*
 %%
 
 int main(){
+    extern FILE *yyin;
+    yyin = fopen("in.c", "r");
     yylex();
     return 0;
 }

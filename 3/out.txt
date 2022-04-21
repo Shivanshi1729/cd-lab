@@ -1,0 +1,12 @@
+231
+Integer Value
+123.32
+Float value
+.32
+Float value
+123.
+Float value
+213.1
+Float value
+2
+Integer Value
