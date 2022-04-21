@@ -1,7 +1,6 @@
-%{ 
+%{
     #include<stdio.h> 
-    int k=0, sp=0, op=0; 
-%} 
+%}
 
 %%
 int|float|if|else|while|main|return { printf("Keyword: %s\n", yytext); }
