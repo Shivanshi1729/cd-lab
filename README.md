@@ -21,7 +21,7 @@
   - 1. Design a LEX Code to count the number of lines, space, tab-meta character, and rest of characters in each Input pattern. 
   - 2. Design a LEX Code to identify and print valid Identifier of C/C++ in given Input pattern. 
   - 3. Design a LEX Code to identify and print integer and float value in given Input pattern.
-  - 4. Design a LEX Code for Tokenizing (Identify and print OPERATORS, SEPERATORS, KEYWORDS, IDENTIFERS) the following C-fragment:
+  - 4. Design a LEX Code for Tokenizing (Identify and print OPERATORS, SEPARATORS, KEYWORDS, IDENTIFIERS) the following C-fragment:
     ```c
     int p=1,d=0,r=4;
     float m=0.0, n=200.0.

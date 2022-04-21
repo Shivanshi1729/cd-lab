@@ -1,0 +1,114 @@
+\documentclass{article}
+
+\usepackage[a4paper, total={6.5in, 9.6in}]{geometry}
+\usepackage{courier}
+\usepackage{listings}
+\usepackage{xcolor}
+\usepackage{hyperref}
+\usepackage{amsmath}
+
+\usepackage{fontspec}
+\setmainfont{Ubuntu}
+%\setsansfont{Ubuntu}
+\setmonofont{JetBrainsMono Nerd Font Mono}
+% \setmonofont{}
+
+\definecolor{mygreen}{rgb}{0.05,0.15,0.11}
+\definecolor{mygray}{rgb}{0.5,0.5,0.5}
+\definecolor{mymauve}{rgb}{0.58,0,0.82}
+
+\lstset{
+  backgroundcolor=\color{white}, basicstyle=\ttfamily, breakatwhitespace=false,
+  breaklines=true, commentstyle=\color{darkgray}, keepspaces=true,
+  keywordstyle=\bfseries\color{black}, morekeywords={*,...},
+  showspaces=false, showstringspaces=false, showtabs=false, 
+  stringstyle=\color{blue}, tabsize=4,
+}
+
+\begin{document}
+
+\pagenumbering{gobble}
+\newpage
+\section*{Question 1}
+Design a LEX Code to count the number of lines, space, 
+tab-meta character, and rest of characters in each Input 
+pattern. 
+\subsection*{Code:}
+\lstinputlisting[language=C]{1/prog.l}
+\newpage
+\subsection*{Output:}
+\lstinputlisting{1/out.txt}
+
+\newpage
+\section*{Question 2}
+Design a LEX Code to identify and print valid Identifier of 
+C/C++ in given Input pattern. 
+\subsection*{Code:}
+\lstinputlisting[language=C]{2/prog.l}
+\newpage
+\subsection*{Output:}
+\lstinputlisting{2/out.txt}
+
+\newpage
+\section*{Question 3}
+Design a LEX Code to identify and print integer and float 
+value in given Input pattern.
+\subsection*{Code:}
+\lstinputlisting[language=C]{3/prog.l}
+\newpage
+\subsection*{Output:}
+\lstinputlisting{3/out.txt}
+
+\newpage
+\section*{Question 4}
+Design a LEX Code for Tokenizing 
+(Identify and print OPERATORS, SEPARATORS, KEYWORDS, 
+IDENTIFIERS) 
+the following C-fragment:
+\subsection*{Code:}
+\lstinputlisting[language=C]{4/prog.l}
+\newpage
+\subsection*{Output:}
+\lstinputlisting{4/out.txt}
+
+\newpage
+\section*{Question 5}
+Design a LEX Code to count and print the number of total 
+characters, words, white spaces in given Input.txt file.
+\subsection*{Code:}
+\lstinputlisting[language=C]{5/prog.l}
+\newpage
+\subsection*{Output:}
+\lstinputlisting{5/out.txt}
+
+\newpage
+\section*{Question 6}
+Design a LEX Code to replace white spaces of Input.txt
+file by a single blank character into Output.txt file.
+\subsection*{Code:}
+\lstinputlisting[language=C]{6/prog.l}
+\newpage
+\subsection*{Output:}
+\lstinputlisting{6/out.txt}
+
+\newpage
+\section*{Question 7}
+Design a LEX Code to remove the comments from any C-Program
+ given at run-time and store into out.c file.
+\subsection*{Code:}
+\lstinputlisting[language=C]{7/prog.l}
+\newpage
+\subsection*{Output:}
+\lstinputlisting{7/out.txt}
+
+\newpage
+\section*{Question 8}
+Design a LEX Code to extract all html tags in the given HTML file 
+at run time and store into Text file given at run time.
+\subsection*{Code:}
+\lstinputlisting[language=C]{8/prog.l}
+\newpage
+\subsection*{Output:}
+\lstinputlisting{8/out.txt}
+
+\end{document}
