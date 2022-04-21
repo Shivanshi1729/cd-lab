@@ -1,25 +1,25 @@
-%{
-    // c code
-    #include <stdio.h>
-    #include <stdlib.h>
-%}
+%{ 
+    #include<stdio.h> 
+    int k=0, sp=0, op=0; 
+%} 
 
-KEYWORD int|float|if|else|while|main|return
-SEPARATOR [,;(){}]
-OPERATOR ==|<=|>=|--|"++"|[*+-/%=<>!~]
-ID [a-zA-Z_][a-zA-Z0-9_]*
+%% 
+    "auto"|"include"|"return"|"int" {k++;} 
+    ";"|"," {sp++;} 
+    "+"|"=" {op++;} 
+%% 
 
-%%
-{KEYWORD} { printf("Keyword: %s\n", yytext); }
-{OPERATOR} { printf("Operator: %s\n", yytext); }
-{SEPARATOR} { printf("Seperator: %s\n", yytext); }
-{ID} { printf("Identifier: %s\n", yytext); }
-.|\n {/* Ignore all other characters. */}
-%%
+int yywrap(){ 
+    return 1; 
+} 
 
-int main(){
-    extern FILE *yyin;
-    yyin = fopen("in.c", "r");
-    yylex();
-    return 0;
-}
+int main(){ 
+    extern FILE *yyin, *yyout; 
+    yyin=fopen("input.txt","r"); 
+    yyout=fopen("output.txt","w"); 
+    yylex(); 
+    fprintf(yyout, "\nno of keywords %d", k); 
+    fprintf(yyout, "\nno of seperators %d", sp); 
+    fprintf(yyout, "\nno of operators %d", op); 
+    return 0; 
+} 
