@@ -3,15 +3,27 @@
     int k=0, sp=0, op=0; 
 %} 
 
-%% 
-    "auto"|"include"|"return"|"int" {k++;} 
-    ";"|"," {sp++;} 
-    "+"|"=" {op++;} 
-%% 
-
-int yywrap(){ 
-    return 1; 
-} 
+%%
+int|float|if|else|while|main|return { printf("Keyword: %s\n", yytext); }
+== |
+\<= |
+\>= |
+-- |
+\+\+ |
+= |
+\/ |
+\* |
+\+ |
+- |
+% |
+\< |
+\> |
+! |
+~ { printf("Operator: %s\n", yytext); }
+[,;(){}] { printf("Separator: %s\n", yytext); }
+[a-zA-Z_][a-zA-Z0-9_]* { printf("Identifier: %s\n", yytext); }
+.|\n {/* Ignore all other characters. */}
+%%
 
 int main(){ 
     extern FILE *yyin, *yyout; 
