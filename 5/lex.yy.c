@@ -438,8 +438,8 @@ int yy_flex_debug = 0;
 #define YY_MORE_ADJ 0
 #define YY_RESTORE_YY_MORE_OFFSET
 char *yytext;
-#line 1 "5.l"
-#line 2 "5.l"
+#line 1 "prog.l"
+#line 2 "prog.l"
     // c code
     #include <stdio.h>
 
@@ -664,7 +664,7 @@ YY_DECL
 		}
 
 	{
-#line 10 "5.l"
+#line 10 "prog.l"
 
 #line 670 "lex.yy.c"
 
@@ -725,23 +725,23 @@ do_action:	/* This label is used only to access EOF actions. */
 
 case 1:
 YY_RULE_SETUP
-#line 11 "5.l"
-{noSpace++; printf("space: \"%s\"", yytext);}
+#line 11 "prog.l"
+{noSpace++;}
 	YY_BREAK
 case 2:
 YY_RULE_SETUP
-#line 12 "5.l"
-{noWords++, noCharacters=noCharacters+yyleng; printf("words: \"%s\"", yytext);}
+#line 12 "prog.l"
+{noWords++, noCharacters=noCharacters+yyleng;}
 	YY_BREAK
 case 3:
 /* rule 3 can match eol */
 YY_RULE_SETUP
-#line 13 "5.l"
-{noCharacters++; printf("char: \"%s\"", yytext);}
+#line 13 "prog.l"
+{noCharacters++;}
 	YY_BREAK
 case 4:
 YY_RULE_SETUP
-#line 14 "5.l"
+#line 14 "prog.l"
 ECHO;
 	YY_BREAK
 #line 748 "lex.yy.c"
@@ -1749,7 +1749,7 @@ void yyfree (void * ptr )
 
 #define YYTABLES_NAME "yytables"
 
-#line 14 "5.l"
+#line 14 "prog.l"
 
 
 int main(){

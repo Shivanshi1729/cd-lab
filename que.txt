@@ -1,0 +1,21 @@
+dfa design which accepts 
+string with ending with 
+00
+
+
+design a dfa lex code which
+accept the string with even no
+of 1
+
+design a dfa which accepts the
+string ending with 01
+
+
+design a dfa which stats with 
+11
+
+design which accepts a string
+with odd no of one and even
+no of zeros
+
+and manual codes

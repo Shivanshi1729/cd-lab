@@ -8,9 +8,9 @@
 %}
 
 %%
-[ ] {noSpace++; printf("space: \"%s\"", yytext);}
-[^ \n\t]+ {noWords++, noCharacters=noCharacters+yyleng; printf("words: \"%s\"", yytext);}
-\n {noCharacters++; printf("char: \"%s\"", yytext);}
+[ ] {noSpace++;}
+[^ \n\t]+ {noWords++, noCharacters=noCharacters+yyleng;}
+\n {noCharacters++;}
 %%
 
 int main(){

@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019/Debian) (preloaded format=xelatex 2021.10.6)  21 APR 2022 21:46
+This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019/Debian) (preloaded format=xelatex 2021.10.6)  19 JUN 2022 11:20
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -283,6 +283,23 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 734.
 LaTeX Info: Redefining \[ on input line 2859.
 LaTeX Info: Redefining \] on input line 2860.
 )
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2019/11/30 v1.2a Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2019/11/30 v1.4a Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: xetex.def on input line 105.
+)
+\Gin@req@height=\dimen160
+\Gin@req@width=\dimen161
+)
 (/usr/share/texlive/texmf-dist/tex/latex/fontspec/fontspec.sty
 (/usr/share/texlive/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
 (/usr/share/texlive/texmf-dist/tex/latex/l3kernel/expl3.sty
@@ -317,9 +334,9 @@ X
 \l__fontspec_emdef_int=\count287
 \l__fontspec_strong_int=\count288
 \l__fontspec_strongdef_int=\count289
-\l__fontspec_tmpa_dim=\dimen160
-\l__fontspec_tmpb_dim=\dimen161
-\l__fontspec_tmpc_dim=\dimen162
+\l__fontspec_tmpa_dim=\dimen162
+\l__fontspec_tmpb_dim=\dimen163
+\l__fontspec_tmpc_dim=\dimen164
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty
 Package: fontenc 2020/02/11 v2.0o Standard LaTeX package
@@ -545,35 +562,44 @@ File: lstlang1.sty 2019/09/10 1.8c listings language file
 (/usr/share/texlive/texmf-dist/tex/latex/listings/lstmisc.sty
 File: lstmisc.sty 2019/09/10 1.8c (Carsten Heinz)
 ) (./1/prog.l)
-(./1/out.txt)
+File: 1/out.png Graphic file (type bmp)
+<1/out.png>
+
 (/usr/share/texlive/texmf-dist/tex/generic/stringenc/se-ascii-print.def
 File: se-ascii-print.def 2019/11/29 v1.12 stringenc: Printable ASCII characters
 
 )
 [1
 
-] (./2/prog.l) (./2/out.txt) [2] (./3/prog.l) (./3/out.txt) [3] (./4/prog.l)
-[4] (./4/in.c) (./4/out.txt [5]) [6] (./5/prog.l) (./5/input.txt)
-(./5/output.txt) [7] (./6/prog.l) (./6/input.txt) (./6/output.txt) [8]
-(./7/prog.l) [9] (./7/input.c) (./7/out.c) [10] (./8/prog.l) [11]
-(./8/ihtml.html) (./8/out.html)
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 123.
- [12]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 123.
+] (./2/prog.l)
+File: 2/out.png Graphic file (type bmp)
+<2/out.png>
+ [2] (./3/prog.l)
+File: 3/out.png Graphic file (type bmp)
+<3/out.png>
+ [3] (./4/prog.l) [4] (./4/in.c) (./4/out.txt
+[5]) [6] (./5/prog.l) (./5/input.txt) (./5/output.txt) [7] (./6/prog.l)
+(./6/input.txt) (./6/output.txt) [8] (./7/prog.l) [9] (./7/input.c) (./7/out.c)
+[10] (./8/prog.l) [11] (./8/ihtml.html) (./8/out.html) [12] (./9/prog.l)
+[13] [14] (./10/prog.l [15]) [16] [17] (./11/prog.l) [18] (./8/out.html)
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 162.
+
+[19]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 162.
  (./file.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 123.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 123.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 162.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 162.
 Package rerunfilecheck Info: File `file.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 123.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 162.
  ) 
 Here is how much of TeX's memory you used:
- 13608 strings out of 479819
- 251531 string characters out of 5895846
- 820635 words of memory out of 5000000
- 30520 multiletter control sequences out of 15000+600000
+ 13854 strings out of 479819
+ 254600 string characters out of 5895846
+ 868475 words of memory out of 5000000
+ 30748 multiletter control sequences out of 15000+600000
  532922 words of font info for 53 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 43i,6n,67p,246b,1643s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 43i,6n,67p,246b,1766s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on file.pdf (12 pages).
+Output written on file.pdf (19 pages).
