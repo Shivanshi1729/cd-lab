@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019/Debian) (preloaded format=xelatex 2021.10.6)  19 JUN 2022 13:23
+This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019/Debian) (preloaded format=xelatex 2021.10.6)  20 JUN 2022 00:46
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -591,23 +591,40 @@ File: 10/out.png Graphic file (type bmp)
 (./11/prog.l) [23]
 File: 11/out.png Graphic file (type bmp)
 <11/out.png>
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 173.
- [24]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 173.
- (./file.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 173.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 173.
+ [24] (./12/prog.l) [25]
+File: 12/out.png Graphic file (type bmp)
+<12/out.png>
+ [26] (./13/prog.l) [27]
+File: 13/out.png Graphic file (type bmp)
+<13/out.png>
+ [28]
+(./14/prog.l) [29]
+File: 14/out.png Graphic file (type bmp)
+<14/out.png>
+ [30] (./15/prog.l) [31]
+File: 15/out.png Graphic file (type bmp)
+<15/out.png>
+ [32] (./16/prog.l) [33]
+File: 16/out.png Graphic file (type bmp)
+<16/out.png>
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 227.
+ [34]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 227.
+
+(./file.aux)
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 227.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 227.
 Package rerunfilecheck Info: File `file.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 173.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 227.
  ) 
 Here is how much of TeX's memory you used:
- 13867 strings out of 479819
- 254771 string characters out of 5895846
+ 13912 strings out of 479819
+ 255261 string characters out of 5895846
  858475 words of memory out of 5000000
- 30763 multiletter control sequences out of 15000+600000
+ 30793 multiletter control sequences out of 15000+600000
  532922 words of font info for 53 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  43i,6n,67p,246b,1766s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on file.pdf (24 pages).
+Output written on file.pdf (34 pages).
