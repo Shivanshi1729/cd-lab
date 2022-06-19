@@ -27,7 +27,7 @@ int|float|if|else|while|main|return { fprintf(yyout, "Keyword: %s\n", yytext); }
 int main(){ 
     extern FILE *yyin, *yyout;
     yyin = fopen("in.c","r");
-    yyout = fopen("out.txt","r");
+    yyout = fopen("out.txt","w");
     yylex();
     return 0;
 } 
