@@ -1,8 +1,4 @@
 %{
-    // Design a DFA in LEX Code which accepts
-    // string containing even number of 'a' and even number 
-    // of 'b' over input alphabet {a, b}.
-    #include <stdio.h>
     #include <stdlib.h>
 %}
 

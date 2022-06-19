@@ -1,7 +1,4 @@
 %{
-    // Design a DFA in LEX Code to Identify and 
-    // print Integer & Float Constants and Identifier.
-    #include <stdio.h>
     #include <stdlib.h>
 %}
 

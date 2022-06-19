@@ -1,9 +1,4 @@
 %{
-    // c code
-    // Design a DFA in LEX Code which
-    // accepts string containing third last 
-    // element 'a' over input alphabet {a, b}.
-    #include <stdio.h>
     #include <stdlib.h>
 %}
 

@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019/Debian) (preloaded format=xelatex 2021.10.6)  19 JUN 2022 11:20
+This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019/Debian) (preloaded format=xelatex 2021.10.6)  19 JUN 2022 13:23
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -562,44 +562,52 @@ File: lstlang1.sty 2019/09/10 1.8c listings language file
 (/usr/share/texlive/texmf-dist/tex/latex/listings/lstmisc.sty
 File: lstmisc.sty 2019/09/10 1.8c (Carsten Heinz)
 ) (./1/prog.l)
-File: 1/out.png Graphic file (type bmp)
-<1/out.png>
-
 (/usr/share/texlive/texmf-dist/tex/generic/stringenc/se-ascii-print.def
 File: se-ascii-print.def 2019/11/29 v1.12 stringenc: Printable ASCII characters
 
 )
 [1
 
-] (./2/prog.l)
+]
+File: 1/out.png Graphic file (type bmp)
+<1/out.png>
+ [2] (./2/prog.l) [3]
 File: 2/out.png Graphic file (type bmp)
 <2/out.png>
- [2] (./3/prog.l)
+ [4] (./3/prog.l) [5]
 File: 3/out.png Graphic file (type bmp)
 <3/out.png>
- [3] (./4/prog.l) [4] (./4/in.c) (./4/out.txt
-[5]) [6] (./5/prog.l) (./5/input.txt) (./5/output.txt) [7] (./6/prog.l)
-(./6/input.txt) (./6/output.txt) [8] (./7/prog.l) [9] (./7/input.c) (./7/out.c)
-[10] (./8/prog.l) [11] (./8/ihtml.html) (./8/out.html) [12] (./9/prog.l)
-[13] [14] (./10/prog.l [15]) [16] [17] (./11/prog.l) [18] (./8/out.html)
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 162.
-
-[19]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 162.
+ [6] (./4/prog.l) [7] (./4/in.c)
+(./4/out.txt [8]) [9] (./5/prog.l) [10] (./5/input.txt) (./5/output.txt)
+[11] (./6/prog.l) [12] (./6/input.txt) (./6/output.txt) [13] (./7/prog.l)
+[14] (./7/input.c) (./7/out.c) [15] (./8/prog.l) [16] (./8/ihtml.html)
+(./8/out.html) [17] (./9/prog.l) [18]
+File: 9/out.png Graphic file (type bmp)
+<9/out.png>
+ [19] (./10/prog.l [20]) [21]
+File: 10/out.png Graphic file (type bmp)
+<10/out.png>
+ [22]
+(./11/prog.l) [23]
+File: 11/out.png Graphic file (type bmp)
+<11/out.png>
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 173.
+ [24]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 173.
  (./file.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 162.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 162.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 173.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 173.
 Package rerunfilecheck Info: File `file.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 162.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 173.
  ) 
 Here is how much of TeX's memory you used:
- 13854 strings out of 479819
- 254600 string characters out of 5895846
- 868475 words of memory out of 5000000
- 30748 multiletter control sequences out of 15000+600000
+ 13867 strings out of 479819
+ 254771 string characters out of 5895846
+ 858475 words of memory out of 5000000
+ 30763 multiletter control sequences out of 15000+600000
  532922 words of font info for 53 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  43i,6n,67p,246b,1766s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on file.pdf (19 pages).
+Output written on file.pdf (24 pages).
